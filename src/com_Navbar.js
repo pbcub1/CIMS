@@ -9,7 +9,11 @@ class Navbar extends Component {
 
     processClick( e, trigger ){
         e.preventDefault();
-        console.log(trigger);
+        this.props.callback({
+            type: 'click_action',
+            source: 'Navbar',
+            trigger: trigger
+        });
     }
 
     render() {
@@ -39,7 +43,7 @@ class Navbar extends Component {
                 </ul>
                 <form className="form-inline my-2 my-lg-0">
                     <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit" onClick={(e) => this.processClick(e, 'search')}>Search</button>
                 </form>
                 </div>
             </nav>

@@ -13,14 +13,18 @@ import Core from './com_Core.js';
 import Footer from './com_Footer.js';
 
 class App extends Component {
+  callback = (data) => {
+    console.log(data);
+  }
+
   render() {
     return (
       <div className="App">
-        <Navbar />
-        <SideNavi />
-        <OptionsPanel />
-        <Core />
-        <Footer />
+        <Navbar callback = {this.callback}/>
+        <SideNavi callback = {this.callback}/>
+        <OptionsPanel callback = {this.callback}/>
+        <Core callback = {this.callback}/>
+        <Footer callback = {this.callback}/>
       </div>
     );
   }
