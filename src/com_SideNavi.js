@@ -10,3 +10,5 @@ class SideNavi extends Component {
         );
     }
 }
+
+export default SideNavi;
