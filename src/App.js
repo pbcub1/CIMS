@@ -1,8 +1,11 @@
+//Active Imports
 import React, { Component } from 'react';
 import './App.css';
+
+//Planned Imports
 import $ from 'jquery';
 
-//Components
+//Component Imports
 import Navbar from './com_Navbar.js';
 import SideNavi from './com_SideNavi.js';
 import OptionsPanel from './com_OptionsPanel.js';
@@ -14,6 +17,8 @@ class App extends Component {
         <Navbar />
         <SideNavi />
         <OptionsPanel />
+        {/*Core*/}
+        {/*Footer*/}
       </div>
     );
   }

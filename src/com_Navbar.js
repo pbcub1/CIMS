@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 
 class Navbar extends Component {
+    constructor( props ){
+        super(props);
+
+        //This will be used later
+    }
+
     processClick( e, trigger ){
         e.preventDefault();
         console.log(trigger);
