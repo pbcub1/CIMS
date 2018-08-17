@@ -10,6 +10,7 @@ import Navbar from './com_Navbar.js';
 import SideNavi from './com_SideNavi.js';
 import OptionsPanel from './com_OptionsPanel.js';
 import Core from './com_Core.js';
+import Footer from './com_Footer.js';
 
 class App extends Component {
   render() {
@@ -19,7 +20,7 @@ class App extends Component {
         <SideNavi />
         <OptionsPanel />
         <Core />
-        {/*Footer*/}
+        <Footer />
       </div>
     );
   }
