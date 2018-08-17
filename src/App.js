@@ -9,6 +9,7 @@ import $ from 'jquery';
 import Navbar from './com_Navbar.js';
 import SideNavi from './com_SideNavi.js';
 import OptionsPanel from './com_OptionsPanel.js';
+import Core from './com_Core.js';
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
         <Navbar />
         <SideNavi />
         <OptionsPanel />
-        {/*Core*/}
+        <Core />
         {/*Footer*/}
       </div>
     );
