@@ -4,6 +4,11 @@
 
 - [License](#license)
 - [How to Setup Your Development Environment](#how-to-setup-your-development-environment)
+  - [Prerequisites](#prerequisites)
+  - [Fork Project](#fork-project)
+  - [Download Repository](#download-repository)
+  - [Install](#install-repository)
+  - [Start](#start-environment)
 - [How to Contribute Code](#how-to-contribute-code)
 - [Code Styling](#code-styling)
 - [Other Ways of Contributing](#other-ways-of-contributing)
@@ -14,7 +19,21 @@ This software is written under the [GPL V3](LICENSE.md) license. This software i
 
 ## How to Setup Your Development Environment
 
-TODO: Write this section
+### Prerequisites
+- NPM: Linux Command `sudo apt-get install npm`
+- Node.js: Linux Command `sudo apt-get install nodejs`
+
+### Fork Project
+Fork the project into your repositories, this will allow you to commit your changes.
+
+### Download Repository
+You can either do this through a Github GUI like Github Desktop or GitKraken or you can do it through the terminal using `git clone https://github.com/YOUR-USERNAME/CIMS`
+
+### Install Repository
+Navigate to your new working directory in your terminal and type `npm install`. This will download any prerequisites and change any project settings needed to be able to run on your system.
+
+### Start Environment
+Navigate to your working directory in your terminal and type `npm start`. This will start the development server on your system, this server will automatically rerender any changes once you save a file.
 
 ## How to Contribute Code
 
