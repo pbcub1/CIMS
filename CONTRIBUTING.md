@@ -10,8 +10,18 @@
   - [Install](#install-repository)
   - [Start](#start-environment)
 - [How to Contribute Code](#how-to-contribute-code)
+  - [Finding Issues](#finding-issues)
+  - [Code Standard](#code-standard)
+  - [Pull Requests](#pull-request)
+  - [Copyright and Licensing](#copyright-and-licensing)
 - [Code Styling](#code-styling)
+  - [CSS Style](#css-style)
+  - [Javascript Style](#javascript-style)
+  - [Copyright](#copyright)
 - [Other Ways of Contributing](#other-ways-of-contributing)
+  - [Bug Hunting](#bug-hunting)
+  - [Issue Maintainer](#issue-maintainer)
+  - [Wiki Writer](#wiki-writer)
 
 ## License
 
