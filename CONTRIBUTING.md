@@ -37,12 +37,39 @@ Navigate to your working directory in your terminal and type `npm start`. This w
 
 ## How to Contribute Code
 
-TODO: Write this section
+### Finding Issues
+
+### Code Standard
+
+### Pull Request
+
+### Copyright and Licensing
 
 ## Code Styling
 
-TODO: Write this section
+### CSS Style
+
+### Javascript Style
+
+### Copyright
+
+## Issue Styling
+
+### Technical Information
+
+### Labelling
+
+### Projects
+
+### Milestones
+
+### Asignees
 
 ## Other Ways of Contributing
 
-TODO: Write this section.
+### Bug Hunting
+
+### Issue Maintainer
+
+### Wiki Writer
+
